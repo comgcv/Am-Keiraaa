@@ -30,7 +30,7 @@ main { max-width: 1180px; margin: auto; padding: 0 20px 50px; }
 .urlBox button:disabled, .renderBtn:disabled { opacity:.5; cursor:not-allowed; }
 .notice { margin-top:12px; padding:13px 15px; border:1px solid var(--line); border-radius:12px; color:#b8bec9; background:#0e1015; font-size:12px; line-height:1.5; }
 .workspace { margin-top:25px; }
-.projectHead { display:flex; justify-content:space-between; gap:20px; align-items:end; margin-bottom:16px; }
+.projectHead { display:flex; justify-content:space-between; gap:20px; align-items:flex-end; margin-bottom:16px; }
 .projectHead h2 { margin:7px 0 0; font-size:27px; letter-spacing:-.03em; }
 .specs { display:flex; gap:7px; flex-wrap:wrap; }
 .specs span { border:1px solid var(--line); background:var(--panel); padding:8px 10px; border-radius:9px; color:#adb3bf; font-size:10px; }
@@ -59,7 +59,7 @@ main { max-width: 1180px; margin: auto; padding: 0 20px 50px; }
 .exportCard { margin-top:15px; display:flex; justify-content:space-between; gap:20px; align-items:center; }
 .exportCard h3 { margin:7px 0 4px; }
 .exportCard p { margin:0; color:#7f8794; font-size:11px; }
-.exportControls { display:flex; gap:8px; align-items:end; flex-wrap:wrap; justify-content:flex-end; }
+.exportControls { display:flex; gap:8px; align-items:flex-end; flex-wrap:wrap; justify-content:flex-end; }
 .exportControls label { color:#858c98; font-size:9px; display:grid; gap:5px; }
 .exportControls select { background:#0b0e13; border:1px solid #2a303b; color:white; border-radius:9px; padding:9px; outline:0; }
 .exportBtn { height:38px; }
