@@ -64,7 +64,7 @@ export default function Home() {
   function validAlightUrl(value: string) {
     try {
       const u = new URL(value);
-      return /(^|\\.)alightcreative\\.com$/i.test(u.hostname);
+      return /(^|\.)alightcreative\.com$/i.test(u.hostname);
     } catch {
       return false;
     }
